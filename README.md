@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Calculadora de Boteco
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Sistema simples para estudos de STATE em React, a calculadora tem como objetivo receber um valor, e calcular quanto será pago por pessoa. Além disso calcular o valor
+da gorjeta.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Instalação e execução
 
-### `npm start`
+Dentro da pasta do projeto,
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### `Instale as dependências com:`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+$ npm install
+```
 
-### `npm test`
+### `Execute a aplicação com:`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+$ npm start
+```
 
-### `npm run build`
+para iniciar o aplicativo em modo desenvolvimento.\
+Com `ctrl + click` clique em [http://localhost:3000](http://localhost:3000) para visualizar no seu navegador.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A página vai recarregar sempre que as alterações são salvas.\
+Você também pode ver erros de lint no console.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `Construa a aplicação com:`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+$ npm run build
+```
 
-### `npm run eject`
+`npm run build` compila o aplicativo para produção gerando uma pasta `build`.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+A compilação é minificada e os nomes dos arquivos incluem os hashes.\
+Seu aplicativo está pronto para ser implantado!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Veja a seção sobre [deployment](https://facebook.github.io/create-react-app/docs/deployment) para mais informações.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### `Clone o repositório com:`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+$ git clone https://github.com/guilherme-jurazek/Calculadora-de-Buteco.git
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Tecnologias
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [React](https://pt-br.reactjs.org/)
+- [React Hooks](https://pt-br.reactjs.org/docs/hooks-intro.html)
 
-### Code Splitting
+## Contribuição
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Para contribuir com **Calculadora de Buteco**, siga estas etapas:
 
-### Analyzing the Bundle Size
+1. Faça um fork do projeto.
+2. Crie uma branch: `git checkout -b <nome-da-branch>`.
+3. Faça suas alterações e confirme-as: `git commit -m '<mensagem-de-confirmação>'`
+4. Envie para a branch original: `git push origin <nome-da-branch>`
+5. Crie a solicitação de pull.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
